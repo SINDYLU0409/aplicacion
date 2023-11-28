@@ -1,0 +1,66 @@
+.contenedor{
+    border: solid 1px #ccc;
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+    font-size:30px;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px #ccc;
+    color: #555;
+    font-family: Arial;
+
+}
+.titulo{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.mensaje{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+
+}
+.caja-correo {
+    font-size: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px rgb(196, 145, 206);
+    outline: none;
+    margin-top: 10px;
+
+}
+input::placeholder{
+    color: #6a62da;
+}
+.agrupador-correo {
+    margin-top: 20px;
+    text-align: left;
+}
+.agrupador-boton {
+    margin-top: 30px;
+}
+.boton-ingresar {
+    font-size: 30px;
+    background-color: rgb(196, 145, 206);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+
+}
+.otros-botones {
+    margin-top: 50px;
+    text-align: center;
+}
+.link-registro, .link-password {
+    color: #7e7c7c;
+    display: block;
+}
